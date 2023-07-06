@@ -33,6 +33,7 @@ class _AddNotesPageState extends State<AddNotesPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        // add note button
         title: const Text('Add Note'),
       ),
       body: Column(
